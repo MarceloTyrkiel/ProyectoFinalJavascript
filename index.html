@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap" rel="stylesheet">
+    <!--Cargo bootstrap, estilos css y libreria toastify-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">     
+    <link rel="stylesheet" href="../css/bootstrap.min.css">  
+    <link rel="stylesheet" href="style.css">
+    <title>Entrega final Javascript</title>
+</head> 
+<!--Cargo las tabs de la Home-->
+<body>
+    <header class="container-fluid bg-dark position-sticky top-0">
+        <ul class="nav nav-pills py-3 container" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Productos</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</a>
+            </li>
+        </ul>
+        
+    </header>
+<!--Cargo la Home-->      
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active body_fotografia" 
+             id="pills-home" 
+             role="tabpanel" 
+             aria-labelledby="pills-home-tab"
+             >
+
+             <div class="cont-fondo">
+                <img class="img-fluid bg-dark" src="./assets/img/inicio.jpg" alt="">;
+                <h1 class="nombre">Francis</h1>
+                <h2 class="tienda">Tienda de ropa para mujeres</h2>
+            </div>
+        </div>
+        <div class="tab-pane fade" 
+            id="pills-profile"
+            role="tabpanel" 
+            aria-labelledby="pills-profile-tab"
+            >
+<!--Cargo todos los productos-->                
+            <div id="bodies">
+                <div class="container"> 
+                    <div class="row mt-3">
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark mb-4">
+                                <img class="card-img-top" src="./assets/img/body/L5651.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                            <h5 class="card-title">Body</h5>
+                                            <h6 class="card-subtitle mb-2 articulo-font">L5651</h6>
+                                            <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                            <p class="card-precio">$ 1000</p>
+                                </div>
+                            </div>    
+                        </div>
+                           
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/body/L5700.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Body</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">L5700</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 1200</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/body/L5701.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Body</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">L5701</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 1400</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/body/L5702.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Body</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">L5702</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 1600</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="conjuntos"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark mb-4">
+                                <img class="card-img" src="./assets/img/conj_ropa_interior/L5495.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Conjuntos</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">L5495</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 1800</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                           
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/conj_ropa_interior/L5607.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Conjuntos</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">L5607</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 2000</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/conj_ropa_interior/L5608.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Conjuntos</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">L5608</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 2200</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/conj_ropa_interior/L5627.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Conjuntos</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">L5627</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 2400</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="corpiños"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark mb-4">
+                                <img class="card-img" src="./assets/img/corpino/A0041.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Corpiño</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">A0041</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 2600</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                           
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/corpino/A0042.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Corpiño</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">A0042</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 2800</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/corpino/A0046.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Corpiño</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">A0046</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 3000</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/corpino/A0048.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Corpiño</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">A0048</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 3200</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="hombre"> 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark mb-4">
+                                <img class="card-img" src="./assets/img/boxer/10.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Boxer</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">10</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 3400</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                           
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/boxer/11.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Boxer</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">11</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 3600</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/boxer/14.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Boxer</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">14</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 3800</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-12  col-sm-6 col-lg-3">
+                            <div class="card border-1 border-dark">
+                                <img class="card-img" src="./assets/img/boxer/15.jpg" alt="">
+                                <div class="body-precio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Boxer</h5>
+                                        <h6 class="card-subtitle mb-2 articulo-font">15</h6>
+                                        <a class="btn btn-outline-dark button">Agregar</a>
+                                    </div>
+                                        <p class="card-precio">$ 4000</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" 
+            id="pills-contact" 
+            role="tabpanel" 
+            aria-labelledby="pills-contact-tab">
+            <div id="carrito">
+        <br>
+<!--Carrito-->        
+            <div class="carrito">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Articulo</th>
+                            <th scope="col">Precio unitario</th>
+                            <th scope="col">Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+                    </tbody>
+                </table>
+                <br><br>
+                <div class="row mx-4">
+                    <div class="col">
+                        <h3 class="itemCartTotal">Total: 0</h3>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                         <a class="btn btn-primary" href="compra.html" role="button">COMPRAR</a>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--Cargo las librerias, bootstrap y vinculo con js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> 
+    <script src="../js/bootstrap.bundle.js"></script> 
+    <script src="main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">  
+    <link rel="stylesheet" href="style.css">
+    <title>compra</title>
+</head>
+<body>
+<!--Cargo los clientes a facturar-->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 mt-3">
+                <label class="form-label">Cliente</label>
+                <select name="cliente" id="cliente" class="form-select">
+                    <option selected>Elije un cliente</option>
+                    <option value="Gomez">Gomez</option>
+                    <option value="Perez">Perez</option>
+                    <option value="Rodriguez">Rodriguez</option>
+                </select>
+                <br>
+                <br>
+            </div>
+            <hr>
+        </div>
+           <div id="direccionCompra">
+        </div>
+        <div class="carrito1">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Tipo</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Articulo</th>
+                        <th scope="col">Precio unitario</th>
+                        <th scope="col">Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody1">
+                </tbody>
+        
+            </table>
+            <br><br>
+            <div class="row mx-4">
+                <div class="col">
+                    <h3 class="itemCartTotal">Total: 0</h3>
+                </div>
+                <div class="col d-flex justify-content-end">
+                   <a class="btn btn-secondary mx-3" id="volver" href="index.html" role="button">VOLVER AL INICIO</a> 
+                <div>
+              
+                
+            </div>
+        </div>
+    </div>
+
+    <!--Cargo las librerias, bootstrap y vinculo con js -->
+   
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> 
+    <script src="./js/bootstrap.bundle.js"></script> 
+    <script src="compra.js"></script>
+</body>
+</html>

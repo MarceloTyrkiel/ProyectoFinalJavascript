@@ -1,0 +1,7 @@
+
+
+[
+{"cliente": "Gomez", "razon": "Transportadora Gomez sa.", "direccion": "Bolivia 3245", "telefono":"5455-6598","CUIT":"2-22222222-2","IVA":"R.I.","CONDICION":"30 dias"},
+{"cliente": "Perez", "razon": "Restaurant Perez s.a.", "direccion": "San Martin 555", "telefono":"4122-7598","CUIT":"3-33333333-3","IVA":"EXENTO","CONDICION":"Contado"},
+{"cliente": "Rodriguez", "razon": "Rodriguez & Hnos srl", "direccion": "Rivadavi 4222", "telefono":"5455-6598","CUIT":"4-44444444-4","IVA":"R.I.","CONDICION":"60 dias"}    
+]
